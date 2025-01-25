@@ -1,24 +1,21 @@
-# Compiled class file
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore compiled class files
 *.class
 
-# Log file
-*.log
+# Ignore build output (e.g., Maven, Gradle)
+target/
+out/
 
-# BlueJ files
-*.ctxt
+# Ignore operating system files
+.DS_Store        # macOS
+Thumbs.db        # Windows
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Ignore Maven wrapper
+mvnw
+mvnw.cmd
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ignore Gradle wrapper
+gradlew
+gradlew.bat
